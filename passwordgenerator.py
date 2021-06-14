@@ -11,9 +11,6 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 
 
-number_letter = random.randint(0,len(letters)-1)
-number_number = random.randint(0,len(numbers)-1)
-number_symbols = random.randint(0,len(symbols)-1)
 
 letters_rdm = []
 for n in range(0,nr_letters):
